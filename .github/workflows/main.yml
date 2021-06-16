@@ -48,5 +48,5 @@ jobs:
           tags: ghcr.io/willykelleher/flask-pytest-example:latest
           
       - name: Imagedigest
-        run: echo${{steps.docker_build.outputs.digest}}
+        run: echo ${{steps.docker_build.outputs.digest}}
 
